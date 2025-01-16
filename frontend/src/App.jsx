@@ -6,6 +6,7 @@ import MoleculeVisualizer from "./components/MoleculeVisualizer";
 import StoichiometryCalculator from "./components/StoichiometryCalculator";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import IdealGasLawCalculator from "./components/IdealGasLawCalculator";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
           <Route
             path="/stoichiometry-calculator"
             element={<StoichiometryCalculator />}
+          />
+          <Route
+            path="ideal-gas-law-calculator"
+            element={<IdealGasLawCalculator />}
           />
         </Routes>
       </Router>

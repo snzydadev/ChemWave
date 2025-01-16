@@ -18,6 +18,9 @@ const HomePage = () => {
         <li>
           <Link to="/stoichiometry-calculator">Stoichiometry Calculator</Link>
         </li>
+        <li>
+          <Link to="/ideal-gas-law-calculator">Ideal Gas Law Calculator</Link>
+        </li>
       </ul>
     </div>
   );
