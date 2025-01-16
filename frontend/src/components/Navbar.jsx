@@ -22,6 +22,9 @@ const Navbar = () => {
         <li>
           <Link to="/ideal-gas-law-calculator">Ideal Gas Law Calculator</Link>
         </li>
+        <li>
+          <Link to="/temperature-converter">Temperature Converter</Link>
+        </li>
       </ul>
     </nav>
   );

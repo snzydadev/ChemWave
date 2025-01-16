@@ -7,6 +7,7 @@ import StoichiometryCalculator from "./components/StoichiometryCalculator";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import IdealGasLawCalculator from "./components/IdealGasLawCalculator";
+import TemperatureConverter from "./components/TemperatureConverter";
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
           <Route
             path="ideal-gas-law-calculator"
             element={<IdealGasLawCalculator />}
+          />
+          <Route
+            path="/temperature-converter" // New route for the temperature converter
+            element={<TemperatureConverter />}
           />
         </Routes>
       </Router>
