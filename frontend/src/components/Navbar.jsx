@@ -25,6 +25,9 @@ const Navbar = () => {
         <li>
           <Link to="/temperature-converter">Temperature Converter</Link>
         </li>
+        <li>
+          <Link to="/mole-to-gram-converter">Mole-to-Gram Converter</Link>
+        </li>
       </ul>
     </nav>
   );

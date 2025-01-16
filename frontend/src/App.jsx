@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import IdealGasLawCalculator from "./components/IdealGasLawCalculator";
 import TemperatureConverter from "./components/TemperatureConverter";
+import MoleToGramConverter from "./components/MoleToGramConverter";
 
 function App() {
   return (
@@ -33,6 +34,10 @@ function App() {
           <Route
             path="/temperature-converter" // New route for the temperature converter
             element={<TemperatureConverter />}
+          />
+          <Route
+            path="/mole-to-gram-converter"
+            element={<MoleToGramConverter />}
           />
         </Routes>
       </Router>
