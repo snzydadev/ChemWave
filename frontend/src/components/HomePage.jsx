@@ -15,6 +15,9 @@ const HomePage = () => {
         <li>
           <Link to="/molecule-visualizer">Molecule Visualizer</Link>
         </li>
+        <li>
+          <Link to="/stoichiometry-calculator">Stoichiometry Calculator</Link>
+        </li>
       </ul>
     </div>
   );

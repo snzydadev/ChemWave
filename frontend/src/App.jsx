@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage";
 import MolecularWeightCalculator from "./components/MolecularWeightCalculator";
 import ReactionSimulator from "./components/ReactionSimulator";
 import MoleculeVisualizer from "./components/MoleculeVisualizer";
+import StoichiometryCalculator from "./components/StoichiometryCalculator";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -19,6 +20,10 @@ function App() {
           />
           <Route path="/reaction-simulator" element={<ReactionSimulator />} />
           <Route path="/molecule-visualizer" element={<MoleculeVisualizer />} />
+          <Route
+            path="/stoichiometry-calculator"
+            element={<StoichiometryCalculator />}
+          />
         </Routes>
       </Router>
 
